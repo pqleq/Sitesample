@@ -9,10 +9,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         
-      # FOR PLAIN HTML SITES (use this block):
-      - name: Move files to root
-        run: |
-          mv Seunexspecialista/* ./
+
           
       # FOR REACT/VUE/FRAMEWORKS (UNCOMMENT this block instead):
       # - name: Setup Node
